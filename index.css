@@ -14,6 +14,7 @@ body{
     display: grid;
     place-items: center;
     min-height: 100vh;
+    font-weight: 500;
 }
 
 .container{
@@ -40,8 +41,8 @@ body{
 }
 
 .right h3{
-    font-weight: 500;
-    column-rule: hsl(217 , 19% , 35% );
+    font-weight: 700;
+    color: hsl(217 , 19% , 35% );
     margin: 2.5rem 0 1rem 0;
 }
 
@@ -79,22 +80,30 @@ body{
 
 .name__date .name{
     font-size: 0.8rem;
+    color: rgb(63, 75, 94);
+    font-weight: 600;
 }
 
 .name__date .date{
     font-size: 0.7rem;
     font-weight: 500;
-    color: hsl(217 , 19% , 35%);
+    color: rgb(144, 154, 170);
 }
 
 .share__image{
-    background: rgb(238, 238, 243);
+    background: rgb(233, 233, 243);
     border-radius: 50%;
-    width: 30px;
-    padding: 5px;
-    width: 28px;
-     
+    
+    padding:8px 20px 8px 8px ;
+    width: 25px;
+    color: rgb(63, 75, 94 , 0.75);
     cursor: pointer;
+}
+
+.share__image:hover , 
+.share__image:active{
+    color: #fff;
+    background-color: rgb(63, 75, 94 , 0.75);
 }
 
 .share__box img{
@@ -177,7 +186,7 @@ body{
     }
 
     .share__box{
-        width: 386px;
+        width: 400px;
         height: 75px;
         background: hsl(217 , 19% , 35%);
         border-radius: 0 0 10px 10px;
